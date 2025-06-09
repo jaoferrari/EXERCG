@@ -1,0 +1,59 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.logo-img {
+    width: 180px;
+    height: auto;
+}
+
+p {
+    margin: 0;
+    text-align: justify;
+}
+
+.lista-html {
+    margin-top: 10px;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #dddddd;
+    margin-top: 0;
+}
