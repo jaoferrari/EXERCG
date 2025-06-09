@@ -1,0 +1,44 @@
+
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.fieldset-principal {
+    border: 1px solid #999;
+    padding: 20px;
+}
+
+
+legend {
+    font-weight: bold;
+    padding: 0 10px; 
+    color: #333;
+}
+
+
+.container-interno {
+    display: flex;
+    gap: 20px; 
+}
+
+
+.fieldset-interno {
+   flex: 1; 
+   border: 1px solid #999;
+   padding: 15px;
+}
+
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box; 
+}
